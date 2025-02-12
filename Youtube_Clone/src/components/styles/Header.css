@@ -1,0 +1,108 @@
+
+.yt-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: #fff;
+    color: black;
+    position: fixed;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.yt-logo{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.bars-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.menu-icon{
+    font-size: 20px;
+    color: #545151;
+}
+.yt-logo-img{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.yt-icon{
+    height: 30px;
+}
+.yt-text{
+    font-size: 22px;
+    font-weight: 600;
+}
+.yt-search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 600px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    margin: 0 20px;
+}
+.search-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    font-size: 17px;
+    padding-left: 3%;
+}
+.search-icon{
+    color: black;
+    font-size: 20px;
+    background-color: #cecaca;
+    padding: 1.5% 5%;
+    border-radius: 0 20px 20px 0;
+}
+.yt-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.yt-create{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #9e9999;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.plus-icon{
+    color: black;
+    font-size: 17px;
+}
+.create-btn{
+    background-color: #9e9999;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;  
+}
+.bell-icon{
+    color: black;
+    font-size: 20px;
+}
+
+.yt-user{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.yt-content{
+    display: flex;
+    padding-top: 60px;
+    overflow-x: hidden;
+}

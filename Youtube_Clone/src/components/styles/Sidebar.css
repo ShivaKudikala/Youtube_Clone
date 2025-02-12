@@ -1,0 +1,78 @@
+
+.sidebarA{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 87.7vh;
+    background-color: white;
+    color: black;
+    position: sticky;
+    overflow-y: auto;
+    padding: 1%;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.sidebarA-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.sidebarA-header-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 0.5% 10%;
+}
+.active {
+    border-radius: 10px;
+    background-color: rgba(96, 92, 92, 0.237); /* Light black */
+}
+
+.sidebarA-header-icon:hover {
+    background-color: rgba(96, 92, 92, 0.237);
+    border-radius: 10px;
+}
+.sidebar-icon{
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 100%;
+    color: rgba(137, 135, 135, 0.597);
+}
+
+
+/* **************************** */
+
+.sidebarB-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+    width: 80px;
+    height: 90vh;
+    background-color: white;
+    color: black;
+    position: sticky;
+    overflow-y: auto;
+    padding: 5px;
+}
+.sidebarB-header-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 1% 10%; */
+    padding: 12px 8px;
+    margin: 1%;
+}
+.sidebarB-header-icon:hover {
+    background-color: rgba(96, 94, 94, 0.336);
+    border-radius: 10px;
+}
+.sidebar-text{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
