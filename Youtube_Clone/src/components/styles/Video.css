@@ -1,8 +1,101 @@
 
+.A-active {
+    margin-left: 260px;
+}
+
+/* When SidebarB is active */
+.B-active {
+    margin-left: 80px;
+}
+
 .video-list{
     display: flex;
-    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    /* height: 90vh; */
+    width: 100%;
+    padding-top: 60px;
+    /* overflow-y: auto; */
+}
+.video-categories{
+    display: flex;
     align-items: center;
-    height: 90vh;
-    overflow-y: auto;
+    justify-content: flex-start;
+    width: 100%;
+    position: fixed;
+    gap: 10px;
+    margin: 0 20px;
+    background-color: white;
+}
+.categories{
+    background-color: #dedbdb7e;
+    padding: 0.5% 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.active{
+    background-color: rgb(189, 187, 187);
+}
+
+.videos-container{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 1%;
+    margin-bottom: 3%;
+
+}
+.video-card{
+    display: flex;
+    flex-direction: column;
+}
+.video-thumbnail{
+    width: 100%;
+    height: 230px;
+    border-radius: 8px;
+    display: block;
+}
+.video-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+}
+.video-details p {
+    margin: 2px 0;
+    padding: 0;
+}
+.video-title{
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #0f0f0f;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+.video-channel {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #606060; /* Use #aaa in dark mode */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.video-views {
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #606060; /* Use #aaa in dark mode */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

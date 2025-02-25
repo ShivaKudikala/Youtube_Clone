@@ -2,7 +2,7 @@ const data = [
     {
         "videoId": "video01",
         "title": "Learn React in 30 Minutes",
-        "thumbnailUrl": "https://example.com/thumbnails/react30min.png",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=1",
         "description": "A quick tutorial to get started with React.",
         "channelId": "channel01",
         "uploader": "user01",
@@ -22,7 +22,7 @@ const data = [
       {
         "videoId": "video02",
         "title": "Mastering JavaScript Async/Await",
-        "thumbnailUrl": "https://example.com/thumbnails/jsasync.png",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=2",
         "description": "Deep dive into asynchronous programming in JavaScript.",
         "channelId": "channel02",
         "uploader": "user03",
@@ -48,7 +48,7 @@ const data = [
       {
         "videoId": "video03",
         "title": "Python Crash Course for Beginners",
-        "thumbnailUrl": "https://example.com/thumbnails/pythoncrash.png",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=3",
         "description": "Learn Python from scratch with this beginner-friendly tutorial.",
         "channelId": "channel03",
         "uploader": "user06",
@@ -68,7 +68,7 @@ const data = [
       {
         "videoId": "video04",
         "title": "CSS Flexbox & Grid - The Ultimate Guide",
-        "thumbnailUrl": "https://example.com/thumbnails/cssguide.png",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=4",
         "description": "Master CSS Flexbox and Grid layout techniques.",
         "channelId": "channel04",
         "uploader": "user08",
@@ -88,7 +88,7 @@ const data = [
       {
         "videoId": "video05",
         "title": "Node.js & Express - Full Course",
-        "thumbnailUrl": "https://example.com/thumbnails/nodeexpress.png",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=5",
         "description": "A complete guide to backend development with Node.js and Express.",
         "channelId": "channel05",
         "uploader": "user10",
@@ -114,7 +114,7 @@ const data = [
       {
         "videoId": "video06",
         "title": "React Native Tutorial for Beginners",
-        "thumbnailUrl": "https://example.com/thumbnails/reactnative.png",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=6",
         "description": "Build mobile apps with React Native from scratch.",
         "channelId": "channel06",
         "uploader": "user13",
@@ -128,6 +128,84 @@ const data = [
             "userId": "user14",
             "text": "I've always wanted to learn React Native. Thanks!",
             "timestamp": "2024-05-01T11:45:00Z"
+          }
+        ]
+      },
+      {
+        "videoId": "video07",
+        "title": "Mastering JavaScript - Beginner to Advanced",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=1",
+        "description": "A step-by-step guide to mastering JavaScript from basics to advanced concepts.",
+        "channelId": "channel06",
+        "uploader": "user13",
+        "views": 120000,
+        "likes": 9400,
+        "dislikes": 350,
+        "uploadDate": "2024-06-10",
+        "comments": [
+          {
+            "commentId": "comment08",
+            "userId": "user14",
+            "text": "Super helpful! The explanations are so clear.",
+            "timestamp": "2024-06-11T10:15:00Z"
+          },
+          {
+            "commentId": "comment09",
+            "userId": "user15",
+            "text": "This should be a paid course. Amazing content!",
+            "timestamp": "2024-06-12T12:45:00Z"
+          }
+        ]
+      },
+      {
+        "videoId": "video08",
+        "title": "React.js Crash Course",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=1",
+        "description": "Learn React.js fundamentals in this beginner-friendly crash course.",
+        "channelId": "channel07",
+        "uploader": "user16",
+        "views": 85000,
+        "likes": 7100,
+        "dislikes": 200,
+        "uploadDate": "2024-07-05",
+        "comments": [
+          {
+            "commentId": "comment10",
+            "userId": "user17",
+            "text": "Finally, a React tutorial that makes sense!",
+            "timestamp": "2024-07-06T15:30:00Z"
+          },
+          {
+            "commentId": "comment11",
+            "userId": "user18",
+            "text": "Great crash course. Straight to the point!",
+            "timestamp": "2024-07-07T18:00:00Z"
+          }
+        ]
+      },
+      {
+        "videoId": "video09",
+        "title": "MongoDB Tutorial for Beginners",
+        "thumbnailUrl": "https://picsum.photos/200/120?random=1",
+        "description": "A comprehensive introduction to MongoDB, a NoSQL database.",
+        "channelId": "channel08",
+        "uploader": "user19",
+        "views": 56000,
+        "likes": 4300,
+        "dislikes": 150,
+        "uploadDate": "2024-08-02",
+        "comments": [
+          {
+            "commentId": "comment12",
+            "userId": "user20",
+            "text": "Super easy to follow! Thanks for this tutorial.",
+            "timestamp": "2024-08-03T09:20:00Z"
+          },
+          {
+            "commentId": "comment13",
+            "userId": "user21",
+            "text": "Perfect for beginners! Cleared all my doubts.",
+            "timestamp": "2024-08-04T11:10:00Z"
           }
         ]
       }

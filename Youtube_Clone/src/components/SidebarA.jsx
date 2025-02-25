@@ -16,7 +16,7 @@ import LibraryMusicIcon from "@mui/icons-material/LibraryMusic";
 import LocalMoviesIcon from "@mui/icons-material/LocalMovies";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
-
+import "./styles/Header.css";
 
 function SidebarA(){
     return(
